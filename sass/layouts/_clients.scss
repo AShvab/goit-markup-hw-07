@@ -3,24 +3,24 @@
     padding-bottom: 94px;
   }
   
-  .clients-list {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-  }
-  
-  .clients-subtitle {
+  .clients__subtitle {
     margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
     line-height: 1.17;
   }
+
+  .clients__list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
   
-  .clients-list-item {
+  .clients__item {
     width: 170px;
     height: 92px;
   }
-  .clients-list-link {
+  .clients__link {
     width: 100%;
     height: 100%;  
     display: flex;
@@ -37,10 +37,10 @@
     }
   }
   
-  .clients-list-icon {
+  .clients__icon {
     transition: fill var(--tra);
-    .clients-list-link:hover &,
-    .clients-list-link:focus & {
+    .clients__link:hover &,
+    .clients__link:focus & {
       fill: var(--accent-color);      
     }    
   }

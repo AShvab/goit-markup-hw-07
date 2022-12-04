@@ -3,33 +3,32 @@
     padding-bottom: 94px;  
   }
   
-  .about-list {
+  .about__subtitle {
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+  
+    margin-bottom: 50px;
+    }
+
+  .about__list {
   display: flex;
   gap: 30px;
   justify-content: center;  
   }
   
-  .about-list-item {
+  .about__item {
   width: calc((100% - 60px) / 3);
   }
-  
-  .about-subtitle,
-  .team-subtitle {
-  color: var(--title-text-color);
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  }
-  
-  .about-subtitle {
-  margin-bottom: 50px;
-  }
-  .about-list-wrapper {
+   
+
+  .about__wrapper {
   position: relative;
   }
   
-  .about-list-text {
+  .about__text {
   position: absolute;
   bottom: 0;
   left: 0;
